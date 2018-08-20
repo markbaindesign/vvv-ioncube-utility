@@ -2,7 +2,7 @@
 
 Ioncube utility for VVV
 
-This utility will set up [Ioncube](http://www.ioncube.com/) on your [VVV](https://github.com/Varying-Vagrant-Vagrants/VVV) installation.
+This utility will set up [Ioncube](http://www.ioncube.com/) on your [VVV](https://github.com/Varying-Vagrant-Vagrants/VVV) installation. This is required by the [Memberium](https://memberium.com/) WordPress plugin.
 
 ## Usage
 
@@ -18,7 +18,7 @@ utilities:
   ioncube:
     - ioncube
 utility-sources:
-  redis: https://github.com/dingo-d/redis-vvv-utility
+  ioncube: https://github.com/markbain/vvv-ioncube-utility
 ```
 
 The `core` utilities are there by default.

@@ -3,7 +3,7 @@
 echo "Setting up Ioncube"
 
 # Download Ioncube
-wget http://downloads3.ioncube.com/loader_downloads/ioncube_loaders_lin_x86-64.tar.gz
+wget http://downloads3.ioncube.com/loader_downloads/ioncube_loaders_lin_x86-64.tar.gz &> /dev/null
 tar xvfz ioncube_loaders_lin_x86-64.tar.gz
 sudo cp ioncube/ioncube_loader_lin_7.0.so /usr/lib/php/20170718/
 
